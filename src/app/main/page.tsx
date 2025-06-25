@@ -1,5 +1,4 @@
 import Navbar from "@/components/navbar";
-import Link from "next/link"; // Add this import
 
 export default function Home() {
   return (
@@ -27,11 +26,9 @@ export default function Home() {
               mauris scelerisque sed. Vivamus eu felis id odio semper facilisis.
               Donec placerat nisi quis cursus consectetur.
             </p>
-            <Link href="/main">
-              <button className="bg-[#8CAAEE] text-white px-6 w-3xs py-2 mt-6 rounded-full shadow-md hover:bg-blue-500 transition font-medium">
-                Mulai Eksplor!
-              </button>
-            </Link>
+            <button className="bg-[#8CAAEE] text-white px-6 w-3xs py-2 mt-6 rounded-full shadow-md hover:bg-blue-500 transition font-medium">
+              Mulai Eksplor!
+            </button>
           </div>
           {/* Right Side */}
           <div className="flex-1 flex items-center justify-center">
